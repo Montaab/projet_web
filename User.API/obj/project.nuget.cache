@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NK3t0xWMWlw=",
+  "dgSpecHash": "y2yGfYi6lhY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\User.API\\User.API.csproj",
+  "projectFilePath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\User.API\\User.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monta\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\monta\\.nuget\\packages\\automapper.extensions.expressionmapping\\8.0.0\\automapper.extensions.expressionmapping.8.0.0.nupkg.sha512",
@@ -244,9 +244,9 @@
       "code": "NU1608",
       "level": "Warning",
       "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.ExpressionMapping 8.0.0 requires AutoMapper (>= 14.0.0 && < 15.0.0) but version AutoMapper 15.0.1 was resolved.",
-      "projectPath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\User.API\\User.API.csproj",
+      "projectPath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\User.API\\User.API.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\User.API\\User.API.csproj",
+      "filePath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\User.API\\User.API.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"

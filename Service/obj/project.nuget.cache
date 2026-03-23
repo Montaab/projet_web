@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HV4sHFKYaMk=",
+  "dgSpecHash": "qgYLYhnAmgo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monta\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\monta\\.nuget\\packages\\automapper.extensions.expressionmapping\\8.0.0\\automapper.extensions.expressionmapping.8.0.0.nupkg.sha512",
@@ -229,9 +229,21 @@
       "code": "NU1608",
       "level": "Warning",
       "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.ExpressionMapping 8.0.0 requires AutoMapper (>= 14.0.0 && < 15.0.0) but version AutoMapper 15.0.1 was resolved.",
-      "projectPath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\Service\\Service.csproj",
+      "projectPath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Service\\Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\Service\\Service.csproj",
+      "filePath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Service\\Service.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'AutoMapper' 15.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Service\\Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Service\\Service.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"

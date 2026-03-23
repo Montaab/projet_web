@@ -7102,11 +7102,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\monta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\Core\\obj\\",
+      "outputPath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
