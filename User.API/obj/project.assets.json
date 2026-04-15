@@ -11563,23 +11563,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\monta\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\User.API\\User.API.csproj",
+      "projectUniqueName": "D:\\Programmes\\Github\\projet_web\\User.API\\User.API.csproj",
       "projectName": "User.API",
-      "projectPath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\User.API\\User.API.csproj",
-      "packagesPath": "C:\\Users\\monta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\User.API\\obj\\",
+      "projectPath": "D:\\Programmes\\Github\\projet_web\\User.API\\User.API.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\Programmes\\Github\\projet_web\\User.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\monta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11594,8 +11594,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\monta\\OneDrive\\Desktop\\ERPMs\\Service\\Service.csproj"
+            "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj": {
+              "projectPath": "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj"
             }
           }
         }
@@ -11610,7 +11610,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -11660,24 +11660,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11686,7 +11668,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -11695,7 +11677,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.ExpressionMapping 8.0.0 requires AutoMapper (>= 14.0.0 && < 15.0.0) but version AutoMapper 15.0.1 was resolved.",
+      "message": "Version du package détectée en dehors de la contrainte de dépendance : AutoMapper.Extensions.ExpressionMapping 8.0.0 nécessite AutoMapper (>= 14.0.0 && < 15.0.0) alors que la version AutoMapper 15.0.1 a été résolue.",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"
