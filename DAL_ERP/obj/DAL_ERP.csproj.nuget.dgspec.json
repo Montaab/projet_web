@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\DAL_ERP\\DAL_ERP.csproj": {}
+    "C:\\Users\\bjorn\\Documents\\projet_web\\DAL_ERP\\DAL_ERP.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\Core\\Core.csproj": {
+    "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Bilel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\Core\\obj\\",
+        "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\bjorn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bilel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -44,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
@@ -111,24 +113,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\DAL_ERP\\DAL_ERP.csproj": {
+    "C:\\Users\\bjorn\\Documents\\projet_web\\DAL_ERP\\DAL_ERP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\DAL_ERP\\DAL_ERP.csproj",
+        "projectUniqueName": "C:\\Users\\bjorn\\Documents\\projet_web\\DAL_ERP\\DAL_ERP.csproj",
         "projectName": "DAL_ERP",
-        "projectPath": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\DAL_ERP\\DAL_ERP.csproj",
-        "packagesPath": "C:\\Users\\Bilel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\DAL_ERP\\obj\\",
+        "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\DAL_ERP\\DAL_ERP.csproj",
+        "packagesPath": "C:\\Users\\bjorn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjorn\\Documents\\projet_web\\DAL_ERP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bilel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -141,10 +143,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\Core\\Core.csproj": {
-                "projectPath": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\Core\\Core.csproj"
+              "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj"
               }
             }
           }
@@ -159,10 +162,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
@@ -226,7 +230,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

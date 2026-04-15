@@ -11031,23 +11031,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "C:\\Users\\bjorn\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Programmes\\Github\\projet_web\\Service\\obj\\",
+      "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\bjorn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11060,10 +11060,11 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Programmes\\Github\\projet_web\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Programmes\\Github\\projet_web\\DAL\\DAL.csproj"
+            "C:\\Users\\bjorn\\Documents\\projet_web\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\DAL\\DAL.csproj"
             }
           }
         }
@@ -11082,6 +11083,7 @@
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "AutoMapper": {
@@ -11145,7 +11147,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
@@ -11154,7 +11156,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Version du package détectée en dehors de la contrainte de dépendance : AutoMapper.Extensions.ExpressionMapping 8.0.0 nécessite AutoMapper (>= 14.0.0 && < 15.0.0) alors que la version AutoMapper 15.0.1 a été résolue.",
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.ExpressionMapping 8.0.0 requires AutoMapper (>= 14.0.0 && < 15.0.0) but version AutoMapper 15.0.1 was resolved.",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"
@@ -11164,7 +11166,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Le package 'AutoMapper' 15.0.1 présente une vulnérabilité de gravité élevé(e) connue, https://github.com/advisories/GHSA-rvv3-g6hj-g44x.",
+      "message": "Package 'AutoMapper' 15.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net8.0"

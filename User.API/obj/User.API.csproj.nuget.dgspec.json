@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programmes\\Github\\projet_web\\User.API\\User.API.csproj": {}
+    "C:\\Users\\bjorn\\Documents\\projet_web\\User.API\\User.API.csproj": {}
   },
   "projects": {
-    "D:\\Programmes\\Github\\projet_web\\Core\\Core.csproj": {
+    "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programmes\\Github\\projet_web\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Programmes\\Github\\projet_web\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Programmes\\Github\\projet_web\\Core\\obj\\",
+        "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\bjorn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -48,6 +49,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
@@ -111,24 +113,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Programmes\\Github\\projet_web\\DAL\\DAL.csproj": {
+    "C:\\Users\\bjorn\\Documents\\projet_web\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programmes\\Github\\projet_web\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\bjorn\\Documents\\projet_web\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Programmes\\Github\\projet_web\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Programmes\\Github\\projet_web\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\bjorn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjorn\\Documents\\projet_web\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -141,10 +143,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Programmes\\Github\\projet_web\\Core\\Core.csproj": {
-                "projectPath": "D:\\Programmes\\Github\\projet_web\\Core\\Core.csproj"
+              "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Core\\Core.csproj"
               }
             }
           }
@@ -163,6 +166,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.WebUtilities": {
@@ -198,24 +202,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj": {
+    "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Programmes\\Github\\projet_web\\Service\\obj\\",
+        "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\bjorn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -228,10 +232,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Programmes\\Github\\projet_web\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Programmes\\Github\\projet_web\\DAL\\DAL.csproj"
+              "C:\\Users\\bjorn\\Documents\\projet_web\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\DAL\\DAL.csproj"
               }
             }
           }
@@ -250,6 +255,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
@@ -313,24 +319,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Programmes\\Github\\projet_web\\User.API\\User.API.csproj": {
+    "C:\\Users\\bjorn\\Documents\\projet_web\\User.API\\User.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programmes\\Github\\projet_web\\User.API\\User.API.csproj",
+        "projectUniqueName": "C:\\Users\\bjorn\\Documents\\projet_web\\User.API\\User.API.csproj",
         "projectName": "User.API",
-        "projectPath": "D:\\Programmes\\Github\\projet_web\\User.API\\User.API.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Programmes\\Github\\projet_web\\User.API\\obj\\",
+        "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\User.API\\User.API.csproj",
+        "packagesPath": "C:\\Users\\bjorn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bjorn\\Documents\\projet_web\\User.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bjorn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -343,10 +349,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj": {
-                "projectPath": "D:\\Programmes\\Github\\projet_web\\Service\\Service.csproj"
+              "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\bjorn\\Documents\\projet_web\\Service\\Service.csproj"
               }
             }
           }
@@ -365,6 +372,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Cors": {
@@ -419,7 +427,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
