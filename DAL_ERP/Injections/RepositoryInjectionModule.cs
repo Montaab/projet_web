@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
-using DAL.IRepository;
-using DAL.Repository;
+using DAL_ERP.IRepository;
+using DAL_ERP.Repository;
 using Microsoft.Extensions.DependencyInjection;
 
 
-namespace DAL.Injections
+namespace DAL_ERP.Injections
 {
     public static class RepositoryInjectionModule
     {

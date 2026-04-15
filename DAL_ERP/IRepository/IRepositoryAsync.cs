@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace DAL.IRepository
+namespace DAL_ERP.IRepository
 {
 
 
@@ -26,7 +26,6 @@ namespace DAL.IRepository
         /// </summary>
         /// <param name="entity">The entity to insert.</param>
         Task Add(TEntity entity);
-        
         /// <summary>
         /// Inserts a range of entities.
         /// </summary>
@@ -42,7 +41,9 @@ namespace DAL.IRepository
         /// <returns>The found entity or null.</returns>
         Task<TEntity> GetById(params object[] keyValues);
 
-        
+
+
+
         /// <summary>
         /// Gets the first or default entity based on a predicate, orderby and children inclusions.
         /// </summary>
@@ -87,8 +88,9 @@ namespace DAL.IRepository
         /// <param name="sql">The raw SQL.</param>
         /// <param name="parameters">The parameters.</param>
         /// <returns>A list of elements satisfying the condition specified by raw SQL.</returns>
-        
-         
+        IQueryable<TEntity> FromSql(string sql, params object[] parameters);
+
+
         #endregion
 
         #region UPDATE
@@ -98,6 +100,21 @@ namespace DAL.IRepository
         /// <param name="entity">The entity.</param>
         Task Update(TEntity entity);
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        Task UpdateDetachedAsync(TEntity entity);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <param name="updatedProperties"></param>
+        /// <returns></returns>
+
+        Task UpdatePartialAsync(TEntity entity, params Expression<Func<TEntity, object>>[] updatedProperties);
         /// <summary>
         /// Updates the specified entities.
         /// </summary>
@@ -112,11 +129,7 @@ namespace DAL.IRepository
         /// <param name="id">The primary key value.</param>
         Task Delete(object id);
 
-        /// <summary>
-        /// Deletes the specified entity.
-        /// </summary>
-        /// <param name="entity">The entity to delete.</param>
-        Task Delete(TEntity entityToDelete);
+
 
         /// <summary>
         /// Deletes the specified entities.

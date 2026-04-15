@@ -1,6 +1,6 @@
-﻿
-using Core.Entities;
-using DAL.IRepository;
+﻿using Core.Entities;
+using DAL_ERP.IRepository;
+using DAL_ERP.IRepository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
@@ -16,7 +16,7 @@ using System.Reflection.Emit;
 using System.Threading.Tasks;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace DAL.Repository
+namespace DAL_ERP.Repository
 {
 
     public class RepositoryAsync<TEntity> : IRepositoryAsync<TEntity> where TEntity : class
@@ -48,33 +48,21 @@ namespace DAL.Repository
             await _dbContext.SaveChangesAsync();
         }
 
-       
+
 
         public virtual async Task Add(IEnumerable<TEntity> entities)
         {
-            //_dbContext.ChangeTracker.Clear();
-            //_dbContext.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
-            _dbContext.ChangeTracker.AutoDetectChangesEnabled = false;
-            _dbContext.ChangeTracker.Clear();
+
             await _dbSet.AddRangeAsync(entities);
-
-            var changedEntriesCopy = _dbContext.ChangeTracker.Entries()
-                     .Where(e => e.State == EntityState.Added ||
-                            e.State == EntityState.Modified ||
-                            e.State == EntityState.Deleted)
-                      .ToList();
-
             await _dbContext.SaveChangesAsync();
 
-            foreach (var entry in changedEntriesCopy)
-                entry.State = EntityState.Detached;
         }
         #endregion
 
         #region READ
         public virtual async Task<TEntity> GetById(params object[] keyValues) => await _dbSet.FindAsync(keyValues);
 
-        
+
 
         public virtual async Task<TEntity> GetFirstOrDefault(
             Expression<Func<TEntity, bool>> predicate = null,
@@ -112,7 +100,7 @@ namespace DAL.Repository
 
         public virtual IQueryable<TEntity> GetAll()
         {
-            return  _dbSet;
+            return _dbSet;
         }
 
         public virtual async Task<IEnumerable<TEntity>> GetMuliple(
@@ -152,21 +140,54 @@ namespace DAL.Repository
 
 
 
-       
+        public virtual IQueryable<TEntity> FromSql(
+            string sql,
+            params object[] parameters
+        ) => _dbSet.FromSqlRaw(sql, parameters);
 
-        
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="database"></param>
+        /// <param name="sql"></param>
+        /// <param name="parameters"></param>
+        /// <returns></returns>
+
         #endregion
 
         #region UPDATE
         public virtual async Task Update(TEntity entity)
         {
-             _dbSet.Update(entity);
-             await _dbContext.SaveChangesAsync();
-            foreach (var ent  in _dbContext.ChangeTracker.Entries())
+            _dbSet.Update(entity);
+            await _dbContext.SaveChangesAsync();
+            foreach (var ent in _dbContext.ChangeTracker.Entries())
             {
                 ent.State = EntityState.Detached;
             }
         }
+
+        public async Task UpdateDetachedAsync(TEntity entity)
+        {
+            _dbSet.Attach(entity);
+            _dbContext.Entry(entity).State = EntityState.Modified;
+            await Task.CompletedTask;
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdatePartialAsync(TEntity entity, params Expression<Func<TEntity, object>>[] updatedProperties)
+        {
+            _dbSet.Attach(entity);
+
+            foreach (var property in updatedProperties)
+            {
+                _dbContext.Entry(entity).Property(property).IsModified = true;
+            }
+
+            await Task.CompletedTask;
+            await _dbContext.SaveChangesAsync();
+        }
+
 
         public virtual async Task Update(IEnumerable<TEntity> entities)
         {
@@ -187,15 +208,6 @@ namespace DAL.Repository
             }
         }
 
-        public virtual async Task Delete(TEntity entityToDelete)
-        {
-            if (_dbContext.Entry(entityToDelete).State == EntityState.Detached)
-            {
-                _dbSet.Attach(entityToDelete);
-            }
-            _dbSet.Remove(entityToDelete);
-            await _dbContext.SaveChangesAsync();
-        }
 
         public virtual async Task Delete(IEnumerable<TEntity> entities)
         {
@@ -226,6 +238,8 @@ namespace DAL.Repository
         {
             return await _dbSet.AnyAsync(predicate);
         }
+
+
         #endregion
     }
 }

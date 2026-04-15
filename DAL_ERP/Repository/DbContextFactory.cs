@@ -1,5 +1,5 @@
 ﻿using Core.Entities;
-using DAL.IRepository;
+using DAL_ERP.IRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Repository
+namespace DAL_ERP.Repository
 {
     
         public class DbContextFactory : IDbContextFactory, IDisposable
