@@ -1,10 +1,10 @@
-﻿using Service.Common.Mappings;
-using System;
+using Core.Entities;
+﻿using System;
 using System.Collections.Generic;
 
-namespace Core.Entities;
+namespace Service_ERP.DTO;
 
-public partial class SouscategorieDto : IMapFrom<Souscategorie>
+public partial class SouscategorieDto
 {
     public int IdScat { get; set; }
 
@@ -21,9 +21,5 @@ public partial class SouscategorieDto : IMapFrom<Souscategorie>
     public virtual ICollection<Article> Articles { get; set; } = new List<Article>();
 
     public virtual CategorieDto IdCatNavigation { get; set; }
-    public void Mapping(AutoMapper.Profile profile)
-    {
-        profile.CreateMap<Souscategorie, SouscategorieDto>().ReverseMap();
-
-    }
+    
 }

@@ -1,10 +1,10 @@
-﻿using Service.Common.Mappings;
-using System;
+using Core.Entities;
+﻿using System;
 using System.Collections.Generic;
 
-namespace Core.Entities;
+namespace Service_ERP.DTO;
 
-public partial class LFournisseurDto : IMapFrom<LFournisseur>
+public partial class LFournisseurDto
 {
     public int IdFour { get; set; }
 
@@ -17,9 +17,5 @@ public partial class LFournisseurDto : IMapFrom<LFournisseur>
     public virtual Article IdArtNavigation { get; set; }
 
     public virtual FournisseurDto IdFourNavigation { get; set; }
-    public void Mapping(AutoMapper.Profile profile)
-    {
-        profile.CreateMap<LFournisseur, LFournisseurDto>().ReverseMap();
-
-    }
+    
 }

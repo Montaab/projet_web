@@ -1,11 +1,8 @@
 ﻿using AutoMapper;
 using Core.Entities;
-using Service.Common.Mappings;
-using Service.DTO;
+namespace Service_ERP.DTO;
 
-namespace Core.Entities;
-
-public partial class CategorieDto : IMapFrom<Categorie>
+public partial class CategorieDto
 {
     public int IdCat { get; set; }
 
@@ -18,10 +15,6 @@ public partial class CategorieDto : IMapFrom<Categorie>
     public DateTime? DateCreation { get; set; }
 
     public virtual ICollection<SouscategorieDto> Souscategories { get; set; } = new List<SouscategorieDto>();
-    public void Mapping(AutoMapper.Profile profile)
-    {
-        profile.CreateMap<Categorie, CategorieDto>().ReverseMap();
-
-    }
+    
 
 }

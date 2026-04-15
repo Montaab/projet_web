@@ -1,10 +1,10 @@
-﻿using Service.Common.Mappings;
-using System;
+using Core.Entities;
+﻿using System;
 using System.Collections.Generic;
 
-namespace Core.Entities;
+namespace Service_ERP.DTO;
 
-public partial class PanierDto : IMapFrom<Panier>
+public partial class PanierDto
 {
     public int IdPan { get; set; }
 
@@ -13,9 +13,5 @@ public partial class PanierDto : IMapFrom<Panier>
     public int? IdClt { get; set; }
 
     public virtual ICollection<LPanierDto> LPaniers { get; set; } = new List<LPanierDto>();
-    public void Mapping(AutoMapper.Profile profile)
-    {
-        profile.CreateMap<Panier, PanierDto>().ReverseMap();
-
-    }
+    
 }
