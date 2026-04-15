@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace DAL.IRepository
+namespace DAL_ERP.IRepository
 {
 
 

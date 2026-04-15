@@ -1,6 +1,6 @@
 ﻿
 using Core.Entities;
-using DAL.IRepository;
+using DAL_ERP.IRepository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
@@ -16,7 +16,7 @@ using System.Reflection.Emit;
 using System.Threading.Tasks;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace DAL.Repository
+namespace DAL_ERP.Repository
 {
 
     public class RepositoryAsync<TEntity> : IRepositoryAsync<TEntity> where TEntity : class
