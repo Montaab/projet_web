@@ -1,11 +1,8 @@
 ﻿using AutoMapper;
 using Core.Entities;
-using Service.Common.Mappings;
+namespace Service_ERP.DTO;
 
-
-namespace Service.DTO;
-
-public partial class ArticleDto : IMapFrom<Article>
+public partial class ArticleDto
 {
     public int IdArt { get; set; }
 
@@ -31,9 +28,5 @@ public partial class ArticleDto : IMapFrom<Article>
 
     public virtual ICollection<LPanierDto> LPaniers { get; set; } = new List<LPanierDto>();
 
-    public void Mapping(AutoMapper.Profile profile)
-    {
-        profile.CreateMap<Article, ArticleDto>().ReverseMap();
-
-    }
+    
 }

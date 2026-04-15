@@ -7122,23 +7122,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\monta\\.nuget\\packages\\": {},
+    "C:\\Users\\Bilel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\DAL_ERP\\DAL_ERP.csproj",
+      "projectUniqueName": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\DAL_ERP\\DAL_ERP.csproj",
       "projectName": "DAL_ERP",
-      "projectPath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\DAL_ERP\\DAL_ERP.csproj",
-      "packagesPath": "C:\\Users\\monta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\DAL_ERP\\obj\\",
+      "projectPath": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\DAL_ERP\\DAL_ERP.csproj",
+      "packagesPath": "C:\\Users\\Bilel\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\DAL_ERP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\monta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bilel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7153,8 +7153,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\monta\\OneDrive\\Documents\\GitHub\\projet_web\\Core\\Core.csproj"
+            "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\Core\\Core.csproj": {
+              "projectPath": "c:\\Users\\Bilel\\Documents\\GitHub\\projet_web\\Core\\Core.csproj"
             }
           }
         }
@@ -7231,26 +7231,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

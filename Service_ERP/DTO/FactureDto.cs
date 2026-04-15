@@ -1,10 +1,10 @@
-﻿using Service.Common.Mappings;
-using System;
+using Core.Entities;
+﻿using System;
 using System.Collections.Generic;
 
-namespace Core.Entities;
+namespace Service_ERP.DTO;
 
-public partial class FactureDto : IMapFrom<Facture>
+public partial class FactureDto
 {
     public int IdFact { get; set; }
 
@@ -18,9 +18,5 @@ public partial class FactureDto : IMapFrom<Facture>
 
     public virtual CommandeDto IdComNavigation { get; set; }
 
-    public void Mapping(AutoMapper.Profile profile)
-    {
-        profile.CreateMap<Facture, FactureDto>().ReverseMap();
-
-    }
+    
 }

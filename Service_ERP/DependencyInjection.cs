@@ -1,9 +1,8 @@
-﻿using DAL.Injections;
+using DAL.Injections;
 using AutoMapper.Extensions.ExpressionMapping;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Service.Common.Mappings;
-
+using Service_ERP.Mappings;
 
 namespace Service
 {
